@@ -1,0 +1,10 @@
+{
+  "displayName": "Grass",
+  "categories" : ["soil"],
+  "hardness": 5,
+  "tiles" : {
+    "sides": "grass",
+    "top": "grass_top",
+    "bottom": "dirt"
+  }
+}

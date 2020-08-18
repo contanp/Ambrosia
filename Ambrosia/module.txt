@@ -1,9 +1,14 @@
 {
     "id" : "Ambrosia",
     "version" : "0.1.0-SNAPSHOT",
-    "author" : "",
+    "author" : "Contanpe",
     "displayName" : "Ambrosia",
     "description" : "Ambrosia game developing and testing.",
-    "dependencies" : [ { "id": "CoreRendering", "minVersion": "1.0.0" } ],
-    "serverSideOnly" : false
+    "dependencies": [
+        { "id": "BiomesAPI", "minVersion": "4.0.0" },
+        { "id": "CoreAssets", "minVersion": "2.0.1" },
+        { "id": "CoreWorlds", "minVersion": "1.1.0" },
+	{ "id": "CoreRendering", "minVersion": "1.0.0" }
+    ],
+    "isWorld": true
 }

@@ -1,0 +1,9 @@
+{
+    "id" : "Ambrosia",
+    "version" : "0.1.0-SNAPSHOT",
+    "author" : "",
+    "displayName" : "Ambrosia",
+    "description" : "Ambrosia game developing and testing.",
+    "dependencies" : [ { "id": "CoreRendering", "minVersion": "1.0.0" } ],
+    "serverSideOnly" : false
+}

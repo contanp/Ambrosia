@@ -1,0 +1,22 @@
+import org.terasology.world.generation.BaseFacetedWorldGenerator;
+import org.terasology.world.generator.RegisterWorldGenerator;
+import org.terasology.registry.In;
+import org.terasology.world.generation.WorldBuilder;
+import org.terasology.world.generator.plugin.WorldGeneratorPluginLibrary;
+import org.terasology.engine.SimpleUri;
+
+
+@RegisterWorldGenerator(id = "ambrosiaWorld", displayName = "Ambrosia World Gen")
+public class AmbrosiaWorldGenerator extends BaseFacetedWorldGenerator{
+    @In
+    private WorldGeneratorPluginLibrary worldGeneratorPluginLibrary;
+
+    public AmbrosiaWorldGenerator(Simple Uri uri) {
+        super(uri);
+    }
+
+    @Override
+    protected WorldBuilder createWorld() {
+        return new WorldBuilder (worldGeneratorPluginLibrary);
+    }
+}
